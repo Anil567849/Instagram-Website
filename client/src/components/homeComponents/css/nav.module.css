@@ -1,0 +1,34 @@
+
+
+  /* navigation part  */
+  .navigationContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding-right: 80px;
+    border-right: 1px solid grey;
+   } 
+   .brandName{
+    flex: 0.2 ;
+   }
+  
+   .navigationContainer .navigationDiv {
+      flex: 1;
+   }
+   .navigationContainer .navigationDiv ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+  
+   }
+  
+   .navigationContainer .navigationDiv ul li{
+    list-style: none;
+   }
+  
+   .navigationContainer .more{
+    flex: 0.2;
+   }

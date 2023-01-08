@@ -1,0 +1,25 @@
+
+
+.container{
+    display: flex;
+}
+.sender{
+    justify-content: flex-end;
+}
+
+.chatTextDiv{
+    background-color: #025144;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+}
+.chatTextDiv :first-child{
+    color: white;
+    margin-right: 20px;
+}
+.chatTextDiv :last-child{
+    color: white;
+}

@@ -1,0 +1,12 @@
+
+
+.heading{
+    text-align: center;
+    border: 1px solid grey;
+}
+
+
+.messageContainer{
+    display: flex;
+    width: 100%;
+}
